@@ -1,0 +1,19 @@
+{
+  "name": "local-streaming-solution",
+  "version": "1.0.0",
+  "main": "server/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.8.1",
+    "ws": "^8.18.0",
+    "electron": "^33.2.0"
+  }
+}
