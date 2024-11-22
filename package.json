@@ -1,9 +1,9 @@
 {
   "name": "local-streaming-solution",
   "version": "1.0.0",
-  "main": "server/main.js",
+  "main": "server/signaling-server.js",
   "scripts": {
-    "start": "electron .",
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,9 +11,6 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "simple-peer": "^9.11.1",
-    "socket.io-client": "^4.8.1",
-    "ws": "^8.18.0",
-    "electron": "^33.2.0"
+    "ws": "^8.18.0"
   }
 }
